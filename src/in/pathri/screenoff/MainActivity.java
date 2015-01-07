@@ -1,4 +1,4 @@
-package in.pathri.screenoff.assist;
+package in.pathri.screenoff;
 
 import in.pathri.screenoff.loghelper.LogHelper;
 import in.pathri.screenoff.loghelper.LogHelper.Level;

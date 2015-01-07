@@ -1,7 +1,6 @@
 package in.pathri.screenoff.loghelper;
 
 import in.pathri.screenoff.BuildConfig;
-import android.os.Build;
 import android.util.Log;
 
 public class LogHelper {

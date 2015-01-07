@@ -3,4 +3,5 @@
 
     <string name="app_name">ScreenOff</string>
     <string name="title_activity_main">Screen Off</string>
+    <string name="service_name">Screen Off Service</string>
 </resources>
