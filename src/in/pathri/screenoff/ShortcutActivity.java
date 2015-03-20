@@ -17,7 +17,7 @@ public class ShortcutActivity extends Activity{
 	    final ShortcutIconResource iconResource=Intent.ShortcutIconResource.fromContext(this,R.drawable.ic_launcher);
 	    final Intent intent=new Intent();
 	    intent.putExtra(Intent.EXTRA_SHORTCUT_INTENT,shortcutIntent);
-	    intent.putExtra(Intent.EXTRA_SHORTCUT_NAME,R.string.app_name);
+	    intent.putExtra(Intent.EXTRA_SHORTCUT_NAME,getResources().getString(R.string.app_name));
 	    intent.putExtra(Intent.EXTRA_SHORTCUT_ICON_RESOURCE,iconResource);
 	    LogHelper.customLog(LOG, Level.DEBUG, "Sent Intent");
 	    setResult(RESULT_OK,intent);
