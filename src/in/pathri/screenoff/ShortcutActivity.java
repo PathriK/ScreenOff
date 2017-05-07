@@ -14,7 +14,7 @@ public class ShortcutActivity extends Activity{
 	    {
 	    super.onCreate(savedInstanceState);
 	    final Intent shortcutIntent=new Intent("in.pathri.screenoff.SCREEN_OFF");
-	    final ShortcutIconResource iconResource=Intent.ShortcutIconResource.fromContext(this,R.drawable.ic_launcher);
+	    final ShortcutIconResource iconResource=Intent.ShortcutIconResource.fromContext(this,R.drawable.screenoff_icon);
 	    final Intent intent=new Intent();
 	    intent.putExtra(Intent.EXTRA_SHORTCUT_INTENT,shortcutIntent);
 	    intent.putExtra(Intent.EXTRA_SHORTCUT_NAME,getResources().getString(R.string.app_name));
